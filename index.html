@@ -4,45 +4,76 @@
     <html lang="en-us">
 
         <head>
-            <meta charset="UTF-8" />
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+            <!-- Boostrap Source Link-->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+            <!-- My CSS-->
             <link rel="stylesheet" type="text/css" href="./style.css">
+
             <title>Personal Bio</title>
         </head>
-<meta charset="UTF-8">
 
 <body>
     <header>
         <h1>Student Bio</h1>
         </header>
-
+    
+        <br>
+        
         <div class="container">
-            
-            <section id="main-bio">
+    <!-- Section main-bio Removed (Added CSS Container/Rows/Cols-->
+          <div class="row">
+            <div class="col-md-8">
+              <div class="page-header">
+                <h2>About Me</h2>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <img src='https://ca.slack-edge.com/T010U5GV2LT-U011RAC9CSK-f42f5d183d7d-512' alt="Mark" id="bio-image"/>
+               </div>
+                <div class="col-md-9">
+              <P>Hello World!  My name is Mark Kelly, I am currently enrolled in a boot camp class @ University of Oregon. I have always enjoyed technology, it is a favorite pastime. So why not get acquainted with it and make it a career. I love sports too!!
+                 </P>
+             </div>
+      </div>
+</div>
 
-    <h2>Mark Kelly</h2>
-
-        <img src='https://ca.slack-edge.com/T010U5GV2LT-U011RAC9CSK-f42f5d183d7d-512' alt="html" id="bio-image"/>
-
-<P>
-    Hello World!  My name is Mark Kelly, I am currently enrolled in a boot camp class @ University of Oregon. I have always enjoyed technology, it is a favorite pastime. So why not get acquainted with it and make it a career. I love sports too!!
-</P>
-</section>
-
-<section id="contact-info">
-    <strong><h3>Contact Info</h3></strong>
+      <!--Added Card For Contact Info-->
+      <div class="col-md-4">
+        <div class="card mt-2">
+           <div class="card-body">
+    <strong><h3 class="card-title">Contact Info</h3></strong>
     <ul>
         <li>Email:
+          <br>
             <a href="mailto:big.mako@gmail.com"
-    target="_blank">Big.mako@gmail.com </a></li>
-        <li>GitHub: 
-            <a href="https://github.com/Bigmak88" target="_blank">https://github.com/Bigmak88</a></li>
+    target="_blank" class="btn btn-primary">Big.mako@gmail.com </a></li>
+        <li>GitHub:
+           <br>
+            <a href="https://github.com/Bigmak88" target="_blank" class="btn btn-primary">https://github.com/Bigmak88</a></li>
         <li>Portfolio:
-            <a href="https://google.com" target="_blank">Coming Soon</a>
+          <br>
+            <a href="https://google.com" target="_blank" class="btn btn-primary">Coming Soon</a>
         </li>
-        </ul>
-    </section>
+        
+ <!-- Removed ending Section tag-->
+        </div>
     </div>
+   </div>
+  </div>
 
+    <div id="footer">
+      Copyright &copy 2020 - Mark Kelly
+  </div>
+
+</div>
+
+
+
+  
 </body>
 
 
