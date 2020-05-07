@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script type="text/javascript">
+
+var losses = 0
+        var wins = 0
+        var ties = 0
+        for (var i = 0; i < 10; i++){
+        var choice = prompt("Rock, paper, or scissors?")
+        var compChoice = Math.random()
+        if (compChoice < 0.34){
+            compHand = "Rock"
+        }
+        else if (compChoice < 0.67){
+            compHand = "Paper"
+        }
+        else {
+            compHand = "Scissors"
+        }
+        console.log(compHand)
+        console.log(choice)
+        if (choice="rock"){
+            choice = "Rock"
+        }
+        else if (choice="scissors"){
+            choice = "Scissors"
+        }
+        else{
+            choice = "Paper"
+        }
+        if (compHand===choice){
+            alert("You tied")
+            ties = ties+1
+            console.log("The number of ties is " + ties)
+        }
+        else if (choice = "rock"){
+            if (compHand === "Paper"){
+                alert("Sorry, my paper beat your rock.")
+                losses = losses+1
+                console.log("The number of losses is " + losses)
+            }
+            else if (compHand === "Scissors"){
+                alert("Congrats! Your rock beat my scissors.")
+                wins = wins+1
+                console.log("The number of wins is " + wins)
+            }
+        }
+        else if (choice = "paper"){
+            if (compHand === "Scissors"){
+                alert("Sorry, my scissors beat your paper.")
+                losses = losses+1
+                console.log("The number of losses is " + losses)
+            }
+            else if (compHand === "rock"){
+                alert("Congrats! Your paper beat my rock.")
+                wins = wins+1
+                console.log("The number of wins is " + wins)
+            }
+        }
+        else if (choice = "scissors"){
+            if (compHand === "rock"){
+                alert("Sorry, my rock beat your scissors.")
+                losses = losses+1
+                console.log("The number of losses is " + losses)
+            }
+            else if (compHand === "paper"){
+                alert("Congrats! Your scissors beat my paper.")
+                wins = wins+1
+                console.log("The number of wins is " + wins)
+            }
+        }
+}
+alert("You have won " + wins + " times. You have lost " + losses + " times. And you have tied " + ties + " times. Try again soon!")
+
+/* 1st Trial Code
+var userChoice = prompt("Do you choose rock, paper or scissors?");
+
+
+var compChoice = Math.random();
+if (compChoice < 0.34) {
+    compChoice = "rock";
+} else if(compChoice <= 0.67) {
+    compChoice = "paper";
+} else {
+    compChoice = "scissors";
+}
+
+var compare = function(choice1, choice2) {
+    if(choice1 === choice2) {
+      alert("The result is a tie!");
+}
+if(choice1 === "rock") {
+    if(choice2 === "scissors") {
+        alert("rock wins");
+    } else {
+        alert("paper wins");
+    }
+}
+if(choice1 === "paper") {
+    if(choice2 === "rock") {
+        alert("paper wins");
+    } else {
+        if(choice2 === "scissors") {
+            alert("scissors wins");
+    }
+}
+if(choice1 === "scissors") {
+    if(choice2 === "rock") {
+        alert("rock wins");
+    } else {
+        if(choice2 === "paper") {
+           alert("scissors wins");
+        }
+    }
+}
+}
+};
+
+console.log("User Choice: " + userChoice);
+console.log("comp Choice: " + compChoice);
+compare(userChoice, compChoice);
+*/
+
+</script>
+    
+</body>
+</html>
