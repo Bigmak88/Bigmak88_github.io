@@ -1,0 +1,47 @@
+body{
+	margin-top: 7%;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    background-color: #efeee7;
+}
+
+/* Password Generator Header */
+.header {
+    font-weight: bold;
+    font-size: large;
+    margin: auto;
+    text-align: center;
+    color:#454545;
+}
+
+/* Card Container */
+.card {
+    min-width: 50%; 
+    max-height: 50%;
+}
+/* Generate A Password Font */
+.card-title {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    color: #454545;
+}
+
+.card-footer {
+    text-align: right;
+    background-color: #f5f5f5;
+}
+
+/* Text Area Box */
+#password {
+    margin: auto;
+    padding: 15%; 
+    text-align: center; 
+    border: dashed 2px grey; 
+    width: 100%;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
