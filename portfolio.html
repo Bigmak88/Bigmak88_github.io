@@ -6,12 +6,14 @@
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- FontAwesome -->
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
       
             <!-- Boostrap Source Link-->
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
             <!-- My CSS-->
-            <link rel="stylesheet" type="text/css" href="./style.css">
+            <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
 
             <title>My Portfolio</title>
         </head>
@@ -19,17 +21,17 @@
 <body>
   <!-- Insert Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html">Navbar</a>
+    <a class="navbar-brand" href="./index.html"><i class="fas fa-home"></i></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          <a class="nav-link active" href="./portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./contact.html">Contact</a>
@@ -56,7 +58,7 @@
                 Alertify (Alert App)
               </p>
               <a href="http://alertifynow.herokuapp.com/" target="_blank" alt="Alertify">
-              <img src="./assets/alertify_sample.png" id="portImg">
+              <img src="./assets/img/alertify_sample.png" id="portImg">
               </a>
               <p><a href="https://github.com/MarkKelly00/Alertify" target="_blank">GitHub Link</a></p>
             </div>
@@ -65,7 +67,7 @@
                 Eat-Da-Burger
               </p>
                 <a href="https://burgerl0gger.herokuapp.com/burgers" target="_blank" alt="burgerApp">
-                  <img src="./assets/burgerApp.png" id="portImg">
+                  <img src="./assets/img/burgerApp.png" id="portImg">
                 </a>
                 <p><a href="https://github.com/MarkKelly00/burger" target="_blank">GitHub Link</a></p>
             </div>
@@ -74,7 +76,7 @@
                 Team Generator (Node)
               </p>
               <a href="https://github.com/MarkKelly00/teamGen" target="_blank" alt="Alertify">
-              <img src="./assets/teamGen.png" id="portImg">
+              <img src="./assets/img/teamGen.png" id="portImg">
               </a>
               <p><a href="https://github.com/MarkKelly00/teamGen" target="_blank">GitHub Link</a></p>
             </div>
@@ -86,7 +88,7 @@
                 Note Keeper
               </p>
               <a href="https://notekeeping00.herokuapp.com/" target="_blank" alt="Alertify">
-              <img src="./assets/note_keeper.png" id="portImg">
+              <img src="./assets/img/note_keeper.png" id="portImg">
               </a>
               <p><a href="https://github.com/MarkKelly00/noteKeeper" target="_blank">GitHub Link</a></p>
             </div>
@@ -95,7 +97,7 @@
                 Weather API
               </p>
                 <a href="https://markkelly00.github.io/WeatherDash2020/" target="_blank" alt="WeatherDash2020">
-                  <img src="./assets/weatherAPIdemo.png" id="portImg">
+                  <img src="./assets/img/weatherAPIdemo.png" id="portImg">
                 </a>
                 <p><a href="https://github.com/MarkKelly00/WeatherDash2020" target="_blank">GitHub Link</a></p>
             </div>
@@ -104,7 +106,7 @@
                 Project 1 (Birthday App)
               </p>
                 <a href="https://markkelly00.github.io/About-Your-Birthday/" target="_blank" alt="birthdayAPI">
-                  <img src="./assets/birthdayAPI.PNG" id="portImg">
+                  <img src="./assets/img/birthdayAPI.PNG" id="portImg">
                 </a>
                 <p><a href="https://github.com/MarkKelly00/About-Your-Birthday" target="_blank">GitHub Link</a></p>
             </div>
@@ -113,7 +115,7 @@
                 Day Scheduler
               </p>
                 <a href="https://markkelly00.github.io/DayScheduleX/" target="_blank" alt="DayScheduleX">
-                  <img src="./assets/dayScheduler.png" id="portImg">
+                  <img src="./assets/img/dayScheduler.png" id="portImg">
                 </a>
                 <p><a href="https://github.com/MarkKelly00/DayScheduleX" target="_blank">GitHub Link</a></p>
             </div>
@@ -125,8 +127,8 @@
               <p>
                 Password Generator
               </p>
-              <a href="https://markkelly00.github.io/passwordGen/" target="_blank" alt="PasswordGen">
-              <img src="./assets/passwordGen.png" id="portImg">
+              <a href="./assets/pwGen.html" target="_blank" alt="PasswordGen">
+              <img src="./assets/img/passwordGen.png" id="portImg">
               </a>
               <p><a href="https://github.com/MarkKelly00/passwordGen" target="_blank">GitHub Link</a></p>
             </div>
@@ -135,7 +137,7 @@
                 Trivia Game
               </p>
                 <a href="https://markkelly00.github.io/TrivialCodes/" target="_blank" alt="TrivialCodes">
-                  <img src="./assets/triviaGame.PNG" id="portImg">
+                  <img src="./assets/img/triviaGame.PNG" id="portImg">
                 </a>
                 <p><a href="https://github.com/MarkKelly00/TrivialCodes" target="_blank">GitHub Link</a></p>
             </div>
@@ -145,7 +147,7 @@
                 Play Stop The Spread?
               </p>
                 <a href="https://scratch.mit.edu/projects/386843726/" target="_blank" alt="stop the spread">
-                  <img src="./assets/stopspread.JPG" id="portImg">
+                  <img src="./assets/img/stopspread.JPG" id="portImg">
                 </a>
             </div>
             <div class="col">
