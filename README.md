@@ -12,5 +12,5 @@ The navbar includes the following pages:
 
 * Contact (form mail)
 
-* **Deployable Link** - https://markkelly00.github.io/about/
+**Deployable Link** - https://markkelly00.github.io/about/
 
